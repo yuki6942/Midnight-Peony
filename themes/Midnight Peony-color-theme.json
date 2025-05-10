@@ -1,0 +1,103 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Midnight Peony",
+    "type": "dark",
+    "colors": {
+      "editor.background": "#0a0a0a",
+      "editor.foreground": "#ffffff",
+      "editorCursor.foreground": "#ff69b4",
+      "editor.lineHighlightBackground": "#1a1a1a",
+      "editor.selectionBackground": "#ff69b430",
+      "editor.inactiveSelectionBackground": "#ff69b420",
+      "editorIndentGuide.background": "#2a2a2a",
+      "editorIndentGuide.activeBackground": "#ff69b460",
+  
+      "activityBar.background": "#0d0d0d",
+      "activityBar.foreground": "#ff69b4",
+      "activityBar.activeBorder": "#ff69b4",
+  
+      "sideBar.background": "#0d0d0d",
+      "sideBar.foreground": "#ffffff",
+  
+      "statusBar.background": "#0d0d0d",
+      "statusBar.foreground": "#ff69b4",
+  
+      "titleBar.activeBackground": "#0a0a0a",
+      "titleBar.activeForeground": "#ff69b4",
+  
+      "tab.activeBackground": "#121212",
+      "tab.activeForeground": "#ffffff",
+      "tab.inactiveBackground": "#0a0a0a",
+      "tab.inactiveForeground": "#888888",
+      "tab.activeBorderTop": "#ff69b4",
+  
+      "panel.background": "#101010",
+      "terminal.background": "#0a0a0a",
+      "terminal.foreground": "#ffffff",
+      "terminalCursor.foreground": "#ff69b4",
+  
+      "button.background": "#ff69b4",
+      "button.foreground": "#000000",
+      "button.hoverBackground": "#ff85c1",
+  
+      "badge.background": "#ff69b4",
+      "badge.foreground": "#000000",
+  
+      "dropdown.background": "#1a1a1a",
+      "dropdown.foreground": "#ffffff"
+    },
+    "tokenColors": [
+      {
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": {
+          "foreground": "#6a6a6a",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["keyword", "storage.type"],
+        "settings": {
+          "foreground": "#ff69b4",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": ["string", "constant.other.symbol"],
+        "settings": {
+          "foreground": "#f78fb3"
+        }
+      },
+      {
+        "scope": ["variable", "identifier"],
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      },
+      {
+        "scope": ["constant.numeric"],
+        "settings": {
+          "foreground": "#ffaec9"
+        }
+      },
+      {
+        "scope": ["function", "entity.name.function"],
+        "settings": {
+          "foreground": "#ffc0cb"
+        }
+      },
+      {
+        "scope": ["entity.name.type", "support.class"],
+        "settings": {
+          "foreground": "#ff94d4"
+        }
+      },
+      {
+        "scope": ["invalid", "invalid.deprecated"],
+        "settings": {
+          "foreground": "#ffffff",
+          "background": "#ff69b4"
+        }
+      }
+    ]
+  }
+  
